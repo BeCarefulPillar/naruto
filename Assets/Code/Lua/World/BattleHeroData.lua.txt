@@ -17,6 +17,7 @@ end
 local function toClass(t)
     t = t or {}
     local hero = {
+        id = t.id
         typeId = t.typeId,
         name = t.name or "",
         hp = 1000,

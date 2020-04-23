@@ -12,6 +12,7 @@ local function toClass(t)
         id = t.id,
         name = t.name or "",
         hero = t.hero or {},
+        heroIndex = t.heroIndex or 1
     })
 end
 
@@ -19,8 +20,10 @@ function M.new(playerId)
     local player = toClass()
     player.id = playerId
     player.name = "xxx"
-    table.insert(player.hero, hero.new(1))
-    table.insert(player.hero, hero.new(2))
+    table.insert(player.hero, hero.new(player.heroIndex,1))
+    player.heroIndex = player.heroIndex + 1
+    table.insert(player.hero, hero.new(player.heroIndex,1))
+    player.heroIndex = player.heroIndex + 1
     return player
 end
 

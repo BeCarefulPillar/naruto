@@ -6,7 +6,6 @@ local function init(self)
         self.go = self.gameObject:AddComponent(typeof(CS.DrawHeroAABB))
         self.go.size = CS.UnityEngine.Vector3(5, 5)
     end
-
 end
 
 function M.Start(self, obj)

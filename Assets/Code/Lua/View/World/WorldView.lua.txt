@@ -3,9 +3,8 @@ local uidef =  require "View.Uidef"
 M = {}
 
 local function init(self)
-    for _,v in ipairs(WORLD_DATA.heroList) do
-        VIEW_MGR:PushHero(uidef.Scene.testHero, v)
-    end
+    
+
 end
 
 function M.Start(self, obj)    

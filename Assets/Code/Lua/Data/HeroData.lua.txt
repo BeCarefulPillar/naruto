@@ -3,15 +3,15 @@ M = {}
 local function toClass(t)
     t = t or {}
     return M.makeObject({
+        id = t.id,
         typeId = t.typeId,
         name = t.name or "",
-        hp = t.hp or 1000,
-        atk = t.atk or 10,
     })
 end
 
-function M.new(typeId)
+function M.new(id,typeId)
     local hero = toClass()
+    hero.id = id
     hero.typeId = 1
     hero.name = "zh"
 
