@@ -3,14 +3,31 @@ local M = {}
 
 function M.Start(self, obj)
     self.heroList = {}
-    
+    self.enemyList = {}
+
     self.view = obj.view
     self.transform = obj.transform
     self.gameObject = obj.gameObject
     self.deltaTime = CS.UnityEngine.Time.deltaTime
 
-    local hero = battleHero.new(PLAYER_DATA.hero[1])
+    --应该从playerData身上拿的 其他应该从表里面拿 暂时无成长，所有的血量一定
+    local hero = battleHero.new({id = 1,typeId = 1,name = "a"})
     table.insert(self.heroList, hero)
+    hero = battleHero.new({id = 2,typeId = 1,name = "a"})
+    table.insert(self.heroList, hero)
+    hero = battleHero.new({id = 3,typeId = 2,name = "p"})
+    table.insert(self.heroList, hero)
+    hero = battleHero.new({id = 4,typeId = 3,name = "c"})
+    table.insert(self.heroList, hero)
+
+    local enemy = battleHero.new({id = 1,typeId = 1,name = "a"})
+    table.insert(self.enemyList, enemy)
+    enemy = battleHero.new({id = 2,typeId = 1,name = "a"})
+    table.insert(self.enemyList, enemy)
+    enemy = battleHero.new({id = 3,typeId = 2,name = "p"})
+    table.insert(self.enemyList, hero)
+    enemy = battleHero.new({id = 4,typeId = 3,name = "c"})
+    table.insert(self.enemyList, enemy)
 
     WORLD_DATA = self
 end
