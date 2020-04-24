@@ -1,0 +1,4194 @@
+table: 00000000631A5FF0 {
+  [1] => table: 00000000631A5FF0 {
+           [enemyHero] => table: 00000000631A60B0 {
+                            [lv] => 15
+                            [name] => "帅帅"
+                            [isDie] => true
+                            [typeId] => 1
+                            [time] => 0
+                            [atk] => 10
+                            [def] => 2
+                            [hp] => 0
+                            [id] => 1
+                          }
+           [myHpReduce] => 8
+           [myHero] => table: 00000000631A60B0 {
+                         [lv] => 15
+                         [name] => "帅帅"
+                         [isDie] => true
+                         [typeId] => 1
+                         [time] => 0
+                         [atk] => 10
+                         [def] => 2
+                         [hp] => 0
+                         [id] => 1
+                       }
+           [isMyAtk] => true
+           [enemyHpReduce] => 8
+         }
+  [2] => table: 00000000631A5FF0 {
+           [enemyHero] => table: 00000000631A5D30 {
+                            *table: 00000000631A5E70
+                          }
+           [myHpReduce] => 8
+           [myHero] => table: 00000000631A5D30 {
+                         *table: 00000000631A5E30
+                       }
+           [isMyAtk] => false
+           [enemyHpReduce] => 8
+         }
+  [3] => table: 00000000631A5FF0 {
+           [enemyHero] => table: 00000000631A57F0 {
+                            *table: 00000000631A5E70
+                          }
+           [myHpReduce] => 8
+           [myHero] => table: 00000000631A57F0 {
+                         *table: 00000000631A5E30
+                       }
+           [isMyAtk] => false
+           [enemyHpReduce] => 8
+         }
+  [4] => table: 00000000631A5FF0 {
+           [enemyHero] => table: 00000000631A5570 {
+                            *table: 00000000631A5E70
+                          }
+           [myHpReduce] => 8
+           [myHero] => table: 00000000631A5570 {
+                         *table: 00000000631A5E30
+                       }
+           [isMyAtk] => false
+           [enemyHpReduce] => 8
+         }
+  [5] => table: 00000000631A5FF0 {
+           [enemyHero] => table: 00000000631A5430 {
+                            *table: 00000000631A5E70
+                          }
+           [myHpReduce] => 8
+           [myHero] => table: 00000000631A5430 {
+                         *table: 00000000631A5E30
+                       }
+           [isMyAtk] => false
+           [enemyHpReduce] => 8
+         }
+  [6] => table: 00000000631A5FF0 {
+           [enemyHero] => table: 00000000631A53B0 {
+                            *table: 00000000631A5E70
+                          }
+           [myHpReduce] => 8
+           [myHero] => table: 00000000631A53B0 {
+                         *table: 00000000631A5E30
+                       }
+           [isMyAtk] => false
+           [enemyHpReduce] => 8
+         }
+  [7] => table: 00000000631A5FF0 {
+           [enemyHero] => table: 00000000631A5D70 {
+                            *table: 00000000631A5E70
+                          }
+           [myHpReduce] => 8
+           [myHero] => table: 00000000631A5D70 {
+                         *table: 00000000631A5E30
+                       }
+           [isMyAtk] => false
+           [enemyHpReduce] => 8
+         }
+  [8] => table: 00000000631A5FF0 {
+           [enemyHero] => table: 00000000631A5B70 {
+                            *table: 00000000631A5E70
+                          }
+           [myHpReduce] => 8
+           [myHero] => table: 00000000631A5B70 {
+                         *table: 00000000631A5E30
+                       }
+           [isMyAtk] => false
+           [enemyHpReduce] => 8
+         }
+  [9] => table: 00000000631A5FF0 {
+           [enemyHero] => table: 00000000631A5BF0 {
+                            *table: 00000000631A5E70
+                          }
+           [myHpReduce] => 8
+           [myHero] => table: 00000000631A5BF0 {
+                         *table: 00000000631A5E30
+                       }
+           [isMyAtk] => false
+           [enemyHpReduce] => 8
+         }
+  [10] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A5930 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A5930 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [11] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A5BB0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A5BB0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [12] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A5830 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A5830 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [13] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A5F70 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A5F70 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [14] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A5DB0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A5DB0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [15] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A5EF0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A5EF0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [16] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A5770 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A5770 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [17] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A5F30 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A5F30 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [18] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A5170 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A5170 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [19] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A5270 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A5270 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [20] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A5CB0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A5CB0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [21] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6030 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6030 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [22] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A55B0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A55B0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [23] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A52B0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A52B0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [24] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6070 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6070 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [25] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A55F0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A55F0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [26] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A5630 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A5630 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [27] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A5330 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A5330 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [28] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A5470 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A5470 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [29] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A56B0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A56B0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [30] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A56F0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A56F0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [31] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A57B0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A57B0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [32] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A5870 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A5870 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [33] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A59B0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A59B0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [34] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A5A30 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A5A30 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [35] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A5A70 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A5A70 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [36] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A5AF0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A5AF0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [37] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A5B30 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A5B30 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [38] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A5C30 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A5C30 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [39] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6DB0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6DB0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [40] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6B70 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6B70 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [41] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6BF0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6BF0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [42] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A67B0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A67B0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [43] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6570 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6570 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [44] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A63F0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A63F0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [45] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6C70 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6C70 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [46] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6670 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6670 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [47] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6A70 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6A70 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [48] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6B30 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6B30 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [49] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6430 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6430 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [50] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A7070 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A7070 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [51] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6CB0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6CB0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [52] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6FF0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6FF0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [53] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6FB0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6FB0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [54] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6770 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6770 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [55] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6470 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6470 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [56] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A62F0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A62F0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [57] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6BB0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6BB0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [58] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6EF0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6EF0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [59] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6130 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6130 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [60] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A70B0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A70B0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [61] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6170 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6170 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [62] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A7030 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A7030 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [63] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6F70 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6F70 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [64] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6AF0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6AF0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [65] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A60F0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A60F0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [66] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A61B0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A61B0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [67] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6270 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6270 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [68] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A67F0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A67F0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [69] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6530 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6530 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [70] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6830 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6830 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [71] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6EB0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6EB0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [72] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6970 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6970 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [73] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A61F0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A61F0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [74] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6230 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6230 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [75] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6F30 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6F30 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [76] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6D30 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6D30 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [77] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A65B0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A65B0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [78] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A63B0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A63B0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [79] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6330 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6330 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [80] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6C30 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6C30 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [81] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6E30 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6E30 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [82] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6CF0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6CF0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [83] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A62B0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A62B0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [84] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A66B0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A66B0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [85] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6870 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6870 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [86] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6370 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6370 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [87] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A64B0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A64B0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [88] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A64F0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A64F0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [89] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A68B0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A68B0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [90] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A65F0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A65F0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [91] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A66F0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A66F0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [92] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6D70 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6D70 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [93] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6DF0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6DF0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [94] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A69B0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A69B0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [95] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6730 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6730 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [96] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6E70 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6E70 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [97] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A6630 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A6630 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [98] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A68F0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A68F0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [99] => table: 00000000631A5FF0 {
+            [enemyHero] => table: 00000000631A69F0 {
+                             *table: 00000000631A5E70
+                           }
+            [myHpReduce] => 8
+            [myHero] => table: 00000000631A69F0 {
+                          *table: 00000000631A5E30
+                        }
+            [isMyAtk] => false
+            [enemyHpReduce] => 8
+          }
+  [100] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A6A30 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A6A30 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [101] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A6930 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A6930 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [102] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A6AB0 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A6AB0 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [103] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7B70 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7B70 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [104] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7EB0 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7EB0 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [105] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7DF0 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7DF0 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [106] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7930 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7930 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [107] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7AF0 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7AF0 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [108] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7570 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7570 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [109] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7A70 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7A70 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [110] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7E30 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7E30 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [111] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7C30 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7C30 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [112] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7EF0 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7EF0 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [113] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7B30 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7B30 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [114] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7770 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7770 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [115] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7AB0 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7AB0 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [116] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7430 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7430 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [117] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7FF0 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7FF0 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [118] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7DB0 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7DB0 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [119] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7C70 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7C70 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [120] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7E70 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7E70 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [121] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7330 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7330 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [122] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8030 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8030 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [123] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7270 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7270 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [124] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A77B0 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A77B0 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [125] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7530 {
+                              *table: 00000000631A5E70
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7530 {
+                           *table: 00000000631A5E30
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [126] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7830 {
+                              [lv] => 2
+                              [name] => "帅帅"
+                              [isDie] => true
+                              [typeId] => 1
+                              [time] => 0
+                              [atk] => 10
+                              [def] => 2
+                              [hp] => 0
+                              [id] => 2
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7830 {
+                           [lv] => 3
+                           [name] => "帅帅"
+                           [isDie] => true
+                           [typeId] => 1
+                           [time] => 0
+                           [atk] => 10
+                           [def] => 2
+                           [hp] => 0
+                           [id] => 2
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [127] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7670 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7670 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [128] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A76F0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A76F0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [129] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7BB0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7BB0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [130] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7D30 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7D30 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [131] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A75B0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A75B0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [132] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A73B0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A73B0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [133] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7370 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7370 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [134] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7BF0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7BF0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [135] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7F30 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7F30 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [136] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7CB0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7CB0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [137] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A71B0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A71B0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [138] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A76B0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A76B0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [139] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A77F0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A77F0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [140] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A72F0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A72F0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [141] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A71F0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A71F0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [142] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A73F0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A73F0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [143] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7870 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7870 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [144] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7FB0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7FB0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [145] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7730 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7730 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [146] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7CF0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7CF0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [147] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7F70 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7F70 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [148] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A79B0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A79B0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [149] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A78B0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A78B0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [150] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8070 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8070 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [151] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A80B0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A80B0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [152] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A78F0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A78F0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [153] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7970 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7970 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [154] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7470 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7470 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [155] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A72B0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A72B0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [156] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A70F0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A70F0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [157] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A74B0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A74B0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [158] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7D70 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7D70 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [159] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A74F0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A74F0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [160] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A75F0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A75F0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [161] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7130 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7130 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [162] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7230 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7230 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [163] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7170 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7170 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [164] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A79F0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A79F0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [165] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7A30 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7A30 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [166] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A7630 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A7630 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [167] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A89F0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A89F0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [168] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8670 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8670 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [169] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8EB0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8EB0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [170] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8EF0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8EF0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [171] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8170 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8170 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [172] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9070 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9070 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [173] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A88F0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A88F0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [174] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8FB0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8FB0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [175] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A81F0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A81F0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [176] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8FF0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8FF0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [177] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8F30 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8F30 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [178] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8B30 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8B30 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [179] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8CF0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8CF0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [180] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9030 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9030 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [181] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8C70 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8C70 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [182] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8530 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8530 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [183] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8430 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8430 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [184] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8AF0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8AF0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [185] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A82B0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A82B0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [186] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A90B0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A90B0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [187] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8470 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8470 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [188] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A80F0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A80F0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [189] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8930 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8930 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [190] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8B70 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8B70 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [191] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8830 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8830 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [192] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8F70 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8F70 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [193] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8DB0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8DB0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [194] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8130 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8130 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [195] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8730 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8730 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [196] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A81B0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A81B0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [197] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8770 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8770 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [198] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8230 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8230 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [199] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8270 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8270 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [200] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8CB0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8CB0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [201] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8D30 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8D30 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [202] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8570 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8570 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [203] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A82F0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A82F0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [204] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8330 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8330 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [205] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A85B0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A85B0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [206] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A85F0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A85F0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [207] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8370 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8370 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [208] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A83B0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A83B0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [209] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A83F0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A83F0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [210] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8D70 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8D70 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [211] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A86B0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A86B0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [212] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A84B0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A84B0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [213] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A86F0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A86F0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [214] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A84F0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A84F0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [215] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8BF0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8BF0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [216] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8630 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8630 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [217] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A87B0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A87B0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [218] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A87F0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A87F0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [219] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8DF0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8DF0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [220] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8870 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8870 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [221] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A88B0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A88B0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [222] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8970 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8970 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [223] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8E30 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8E30 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [224] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8BB0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8BB0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [225] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8E70 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8E70 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [226] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A89B0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A89B0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [227] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8A30 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8A30 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [228] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8A70 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8A70 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [229] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8AB0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8AB0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [230] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A8C30 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A8C30 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [231] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9EB0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9EB0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [232] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9EF0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9EF0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [233] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9170 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9170 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [234] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA070 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA070 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [235] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A98F0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A98F0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [236] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9FB0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9FB0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [237] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A91F0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A91F0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [238] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9FF0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9FF0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [239] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9F30 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9F30 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [240] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9B30 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9B30 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [241] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9CF0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9CF0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [242] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA030 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA030 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [243] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9C70 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9C70 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [244] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9530 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9530 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [245] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9430 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9430 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [246] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9AF0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9AF0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [247] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A92B0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A92B0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [248] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA0B0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA0B0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [249] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9470 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9470 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [250] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A90F0 {
+                              *table: 00000000631A59F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A90F0 {
+                           *table: 00000000631A51B0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [251] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9930 {
+                              [lv] => 11
+                              [name] => "森哥"
+                              [isDie] => true
+                              [typeId] => 3
+                              [time] => 0
+                              [atk] => 10
+                              [def] => 2
+                              [hp] => -8
+                              [id] => 4
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9930 {
+                           [lv] => 4
+                           [name] => "轩哥"
+                           [isDie] => true
+                           [typeId] => 2
+                           [time] => 0
+                           [atk] => 10
+                           [def] => 2
+                           [hp] => 0
+                           [id] => 3
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [252] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9830 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9830 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [253] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9F70 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9F70 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [254] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9DB0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9DB0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [255] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9130 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9130 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [256] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9730 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9730 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [257] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A91B0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A91B0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [258] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9230 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9230 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [259] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A92F0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A92F0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [260] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9B70 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9B70 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [261] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9A70 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9A70 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [262] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9BB0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9BB0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [263] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A93F0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A93F0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [264] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9A30 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9A30 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [265] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A97F0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A97F0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [266] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9630 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9630 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [267] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9270 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9270 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [268] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9330 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9330 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [269] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9CB0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9CB0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [270] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A94B0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A94B0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [271] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9370 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9370 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [272] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A93B0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A93B0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [273] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A94F0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A94F0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [274] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9D30 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9D30 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [275] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9970 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9970 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [276] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A96B0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A96B0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [277] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A99B0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A99B0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [278] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9E70 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9E70 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [279] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9570 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9570 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [280] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9DF0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9DF0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [281] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9BF0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9BF0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [282] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9770 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9770 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [283] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A95B0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A95B0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [284] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9D70 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9D70 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [285] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9C30 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9C30 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [286] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9E30 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9E30 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [287] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A95F0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A95F0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [288] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9670 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9670 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [289] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A96F0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A96F0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [290] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A97B0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A97B0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [291] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9870 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9870 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [292] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A99F0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A99F0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [293] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A98B0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A98B0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [294] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631A9AB0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631A9AB0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [295] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AAA70 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AAA70 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [296] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AADF0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AADF0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [297] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AAC30 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AAC30 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [298] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AAEB0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AAEB0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [299] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AAAF0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AAAF0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [300] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA770 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA770 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [301] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AAAB0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AAAB0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [302] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA430 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA430 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [303] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AAFF0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AAFF0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [304] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AADB0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AADB0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [305] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AAC70 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AAC70 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [306] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AAE70 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AAE70 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [307] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA330 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA330 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [308] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AB030 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AB030 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [309] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA270 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA270 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [310] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA7B0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA7B0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [311] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA530 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA530 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [312] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA830 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA830 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [313] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AAEF0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AAEF0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [314] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AABF0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AABF0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [315] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA470 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA470 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [316] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AAE30 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AAE30 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [317] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA670 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA670 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [318] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AAD30 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AAD30 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [319] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA5B0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA5B0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [320] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA3B0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA3B0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [321] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA370 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA370 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [322] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AAB30 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AAB30 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [323] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AAF30 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AAF30 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [324] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AAB70 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AAB70 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [325] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA1B0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA1B0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [326] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA6B0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA6B0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [327] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA7F0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA7F0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [328] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA2F0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA2F0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [329] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA1F0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA1F0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [330] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA3F0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA3F0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [331] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA870 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA870 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [332] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AAFB0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AAFB0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [333] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA6F0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA6F0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [334] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AACB0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AACB0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [335] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AAF70 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AAF70 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [336] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA9B0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA9B0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [337] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA730 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA730 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [338] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AB070 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AB070 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [339] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AB0B0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AB0B0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [340] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA8B0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA8B0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [341] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA970 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA970 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [342] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA4B0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA4B0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [343] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA2B0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA2B0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [344] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AACF0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AACF0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [345] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AABB0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AABB0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [346] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA8F0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA8F0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [347] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA630 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA630 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [348] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA0F0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA0F0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [349] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA570 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA570 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [350] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA5F0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA5F0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [351] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA130 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA130 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [352] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA930 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA930 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [353] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA9F0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA9F0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [354] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA170 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA170 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [355] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AAD70 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AAD70 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [356] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA230 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA230 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [357] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AA4F0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AA4F0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [358] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AAA30 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AAA30 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [359] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AB470 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AB470 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [360] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AB2F0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AB2F0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [361] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631ABB70 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631ABB70 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [362] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631ABEF0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631ABEF0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [363] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AB130 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AB130 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [364] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AC070 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AC070 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [365] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AB170 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AB170 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [366] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631ABFF0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631ABFF0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [367] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631ABF70 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631ABF70 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [368] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631ABAF0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631ABAF0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [369] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AC0B0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AC0B0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [370] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AB3B0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AB3B0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [371] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AB0F0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AB0F0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [372] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AB7F0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AB7F0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [373] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AB1B0 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AB1B0 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [374] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AB530 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AB530 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [375] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631AB830 {
+                              *table: 00000000631A50F0
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631AB830 {
+                           *table: 00000000631A5AB0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+  [376] => table: 00000000631A5FF0 {
+             [enemyHero] => table: 00000000631ABBB0 {
+                              [lv] => 7
+                              [name] => "奇哥"
+                              [isDie] => false
+                              [typeId] => 4
+                              [time] => 0
+                              [atk] => 10
+                              [def] => 2
+                              [hp] => 992
+                              [id] => 4
+                            }
+             [myHpReduce] => 8
+             [myHero] => table: 00000000631ABBB0 {
+                           *table: 00000000631A50F0
+                         }
+             [isMyAtk] => false
+             [enemyHpReduce] => 8
+           }
+}

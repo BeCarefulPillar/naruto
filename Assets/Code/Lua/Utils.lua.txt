@@ -35,6 +35,7 @@ function M.Printtb(t)
         sub_print_r(t,"  ")
     end
     print(table.concat(output, "\n"))
+    return table.concat(output, "\n")
 end
 
 function M.playSpineAnim(spineAnim, name, loop)
@@ -50,5 +51,33 @@ end
 function M.flipSpineAnim(spineAnim,flip)
     spineAnim.skeleton.FlipX = flip
 end
+
+function M.AddChild(parent, prefab)
+    local go = CS.UnityEngine.GameObject.Instantiate(prefab);
+    if go and parent then
+        local t = go.transform
+        t.parent = parent.transform
+        t.localPosition = CS.UnityEngine.Vector3.zero
+        t.localRotation = CS.UnityEngine.Quaternion.identity
+        t.localScale = CS.UnityEngine.Vector3.one
+    end
+    return go
+end
+
+function M.RemoveAllChild(parent)
+    local childCount = parent.transform.childCount
+    if childCount > 0 then
+        for i = childCount, 1, -1 do
+            CS.UnityEngine.GameObject.DestroyImmediate(parent.transform:GetChild(i - 1).gameObject)
+        end
+    end
+end
+
+function M.appendFile(fileName,content)
+    local f = assert(io.open(fileName,'a'))
+    f:write(content)
+    f:close()
+end
+
 
 return M

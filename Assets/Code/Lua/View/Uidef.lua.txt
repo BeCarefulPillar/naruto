@@ -6,7 +6,7 @@ local M = {
     },
     Scene = {
         testHero = {script = "View.Soldier.TestHeroView", prefab = "Prefab/Soldier/TestHero"},
-        world = {script = "View.World.WorldView", prefab = "Prefab/World/World"},
+        world = {script = "View.World.WorldView", prefab = "Prefab/UI/Pan_Battle"},
     },
     Views = {
         mainView = {script = "View.Ui.MainView", prefab = "ViewPrefab/UIRootView"},

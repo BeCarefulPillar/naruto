@@ -1,5 +1,56 @@
 local battleHero =  require "World.BattleHeroData"
+local Utils = require "Utils"
 local M = {}
+
+local function heroIsDie(heroData)
+    return heroData.hp <= 0
+end
+
+local function startBattle(self)
+    local myHeroNum = #self.heroList
+    local enemyHeroNum = #self.enemyList
+    local myIndex = 1
+    local enemyIndex = 1
+    while true do
+        if myIndex == myHeroNum and heroIsDie(self.heroList[myIndex]) then  
+            break
+        end
+        if enemyIndex == enemyHeroNum and heroIsDie(self.enemyList[enemyIndex]) then
+            break
+        end
+
+        if heroIsDie(self.heroList[myIndex]) then
+            myIndex = myIndex + 1
+        end
+
+        if heroIsDie(self.enemyList[enemyIndex]) then
+            enemyIndex = enemyIndex + 1
+        end
+
+        local myHpReduce = self.enemyList[enemyIndex].atk - self.heroList[myIndex].def
+        local enemyHpReduce = self.heroList[myIndex].atk - self.enemyList[enemyIndex].def
+        --只有什么技能，在这加上技能的数值，在atkList中加上技能ID等等
+        self.heroList[myIndex].hp = self.heroList[myIndex].hp - (self.enemyList[enemyIndex].atk - self.heroList[myIndex].def)
+        self.enemyList[enemyIndex].hp = self.enemyList[enemyIndex].hp - (self.heroList[myIndex].atk - self.enemyList[enemyIndex].def)
+        
+        if heroIsDie(self.heroList[myIndex]) then
+            self.heroList[myIndex].isDie = true
+        end
+
+        if heroIsDie(self.enemyList[enemyIndex]) then
+            self.enemyList[enemyIndex].isDie = true
+        end
+        
+        table.insert(self.atkList,{
+            isMyAtk = self.isMyAtk, 
+            myHero = self.heroList[myIndex], 
+            enemyHero = self.enemyList[enemyIndex],
+            myHpReduce = myHpReduce, 
+            enemyHpReduce = enemyHpReduce})
+        self.isMyAtk = false
+    end
+    self.startBattle = true
+end
 
 function M.Start(self, obj)
     self.heroList = {}
@@ -11,31 +62,42 @@ function M.Start(self, obj)
     self.deltaTime = CS.UnityEngine.Time.deltaTime
 
     --应该从playerData身上拿的 其他应该从表里面拿 暂时无成长，所有的血量一定
-    local hero = battleHero.new({id = 1,typeId = 1,name = "a"})
+    local hero = battleHero.new({id = 1,typeId = 1,name = "帅帅",lv = 15})
     table.insert(self.heroList, hero)
-    hero = battleHero.new({id = 2,typeId = 1,name = "a"})
+    hero = battleHero.new({id = 2,typeId = 1,name = "帅帅",lv = 3})
     table.insert(self.heroList, hero)
-    hero = battleHero.new({id = 3,typeId = 2,name = "p"})
+    hero = battleHero.new({id = 3,typeId = 2,name = "轩哥",lv = 4})
     table.insert(self.heroList, hero)
-    hero = battleHero.new({id = 4,typeId = 3,name = "c"})
+    hero = battleHero.new({id = 4,typeId = 3,name = "森哥",lv = 11})
     table.insert(self.heroList, hero)
 
-    local enemy = battleHero.new({id = 1,typeId = 1,name = "a"})
+    local enemy = battleHero.new({id = 1,typeId = 1,name = "帅帅",lv = 15})
     table.insert(self.enemyList, enemy)
-    enemy = battleHero.new({id = 2,typeId = 1,name = "a"})
+    enemy = battleHero.new({id = 2,typeId = 1,name = "帅帅",lv = 2})
     table.insert(self.enemyList, enemy)
-    enemy = battleHero.new({id = 3,typeId = 2,name = "p"})
-    table.insert(self.enemyList, hero)
-    enemy = battleHero.new({id = 4,typeId = 3,name = "c"})
+    enemy = battleHero.new({id = 3,typeId = 2,name = "轩哥",lv = 6})
     table.insert(self.enemyList, enemy)
+    enemy = battleHero.new({id = 4,typeId = 4,name = "奇哥",lv = 7})
+    table.insert(self.enemyList, enemy)
+
+    self.startBattle = false
+    self.isMyAtk = true
+    self.atkList = {}
+    self.time = 0
 
     WORLD_DATA = self
+    startBattle(self)
 end
 
 function M.Update(self)
     for _,v in ipairs(self.heroList) do
         v:update(self.deltaTime)
     end
+
+
+
+
+
 end
 
 function M.LateUpdate(self)

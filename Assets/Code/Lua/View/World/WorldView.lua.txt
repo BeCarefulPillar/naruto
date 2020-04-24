@@ -1,17 +1,54 @@
 local Utils = require "Utils"
 local uidef =  require "View.Uidef" 
+
 M = {}
 
-local function init(self)
-    
+local function updateUI(self)
+    for _,v in ipairs(self.myHeroList) do
+        local go = Utils.AddChild(self.view.myLayout, self.view.myCell)
+        go.gameObject:SetActive(true)
+        go.transform:Find("Level"):GetComponent("Text").text = "Lv." .. v.lv
+        go.transform:Find("Name"):GetComponent("Text").text = v.name
+    end
 
+    for _,v in ipairs(self.enemyHeroList) do
+        local go = Utils.AddChild(self.view.enemyLayout, self.view.enemyCell)
+        go.gameObject:SetActive(true)
+        go.transform:Find("Level"):GetComponent("Text").text = "Lv." .. v.lv
+        go.transform:Find("Name"):GetComponent("Text").text = v.name
+    end
 end
 
 function M.Start(self, obj)    
-    self.view = obj.view
+    self.luaView = obj.view
     self.transform = obj.transform
     self.gameObject = obj.gameObject
-    init(self)
+    self.view = {
+        myScrollRect  = self.transform:Find("Main/Myself/Scroll View"):GetComponent("ScrollRect"),
+        myCell = self.transform:Find("Main/Myself/Scroll View/Viewport/Cell").transform,
+        myLayout = self.transform:Find("Main/Myself/Scroll View/Viewport/Content").transform,
+
+        enemyScrollRect  = self.transform:Find("Main/Enemy/Scroll View"):GetComponent("ScrollRect"),
+        enemyCell = self.transform:Find("Main/Enemy/Scroll View/Viewport/Cell").transform,
+        enemyLayout = self.transform:Find("Main/Enemy/Scroll View/Viewport/Content").transform,
+    }
+    self.myHeroList = WORLD_DATA.heroList
+    self.enemyHeroList = WORLD_DATA.enemyList
+
+    updateUI(self)
+end
+
+local function startBattle(self)
+
+
+    -- body
+end
+
+function M.Update(self)
+    if WORLD_DATA.startBattle == true and not self.atkList then
+        self.atkList = WORLD_DATA.atkList
+        startBattle(self)
+    end
 end
 
 return M

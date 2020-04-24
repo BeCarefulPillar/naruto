@@ -17,11 +17,13 @@ end
 local function toClass(t)
     t = t or {}
     local hero = {
-        id = t.id
+        id = t.id,
         typeId = t.typeId,
         name = t.name or "",
-        hp = 1000,
-        atk = 10,
+        lv = t.lv or 1,
+        hp = t.hp or 1000,
+        atk = t.atk or 600,
+        def = t.def or 100,
         time = 0,
     }
     return M.makeObject(hero)
