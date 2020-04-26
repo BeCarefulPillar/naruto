@@ -12,7 +12,8 @@ local function startBattle(self)
     local myIndex = 1
     local enemyIndex = 1
     while true do
-        if myIndex == myHeroNum and heroIsDie(self.heroList[myIndex]) then  
+        local saveDieData = false
+        if myIndex == myHeroNum and heroIsDie(self.heroList[myIndex]) then
             break
         end
         if enemyIndex == enemyHeroNum and heroIsDie(self.enemyList[enemyIndex]) then
@@ -21,10 +22,24 @@ local function startBattle(self)
 
         if heroIsDie(self.heroList[myIndex]) then
             myIndex = myIndex + 1
+            saveDieData = true
         end
 
         if heroIsDie(self.enemyList[enemyIndex]) then
             enemyIndex = enemyIndex + 1
+            saveDieData = true
+        end
+
+        if saveDieData then
+            table.insert(self.atkList,{
+            isMyAtk = self.isMyAtk, 
+            myHero = battleHero.new(self.heroList[myIndex]), 
+            enemyHero = battleHero.new(self.enemyList[enemyIndex]),
+            myIndex = myIndex,
+            enemyIndex = enemyIndex,
+            myHpReduce = 0, 
+            enemyHpReduce = 0,
+            init = true})
         end
 
         local myHpReduce = self.enemyList[enemyIndex].atk - self.heroList[myIndex].def
@@ -43,12 +58,16 @@ local function startBattle(self)
         
         table.insert(self.atkList,{
             isMyAtk = self.isMyAtk, 
-            myHero = self.heroList[myIndex], 
-            enemyHero = self.enemyList[enemyIndex],
+            myHero = battleHero.new(self.heroList[myIndex]), 
+            enemyHero = battleHero.new(self.enemyList[enemyIndex]),
+            myIndex = myIndex,
+            enemyIndex = enemyIndex,
             myHpReduce = myHpReduce, 
             enemyHpReduce = enemyHpReduce})
-        self.isMyAtk = false
+        self.isMyAtk = not self.isMyAtk
     end
+
+    Utils.Printtb(self.atkList)
     self.startBattle = true
 end
 
@@ -86,6 +105,15 @@ function M.Start(self, obj)
     self.time = 0
 
     WORLD_DATA = self
+    table.insert(self.atkList,{
+    isMyAtk = self.isMyAtk, 
+    myHero =  battleHero.new(self.heroList[1]), 
+    enemyHero = battleHero.new(self.enemyList[1]),
+    myIndex = 1,
+    enemyIndex = 1,
+    myHpReduce = 0, 
+    enemyHpReduce = 0,
+    init = true})
     startBattle(self)
 end
 
@@ -93,11 +121,6 @@ function M.Update(self)
     for _,v in ipairs(self.heroList) do
         v:update(self.deltaTime)
     end
-
-
-
-
-
 end
 
 function M.LateUpdate(self)

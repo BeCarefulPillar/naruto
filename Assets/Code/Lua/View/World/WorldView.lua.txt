@@ -1,6 +1,12 @@
 local Utils = require "Utils"
 local uidef =  require "View.Uidef" 
 
+local status = {
+    "ATK",
+    "DEF",
+    "WAIT",
+}
+
 M = {}
 
 local function updateUI(self)
@@ -9,6 +15,8 @@ local function updateUI(self)
         go.gameObject:SetActive(true)
         go.transform:Find("Level"):GetComponent("Text").text = "Lv." .. v.lv
         go.transform:Find("Name"):GetComponent("Text").text = v.name
+        go.transform:Find("DeadObj").gameObject:SetActive(false)
+        table.insert(self.view.myHeroView, go)
     end
 
     for _,v in ipairs(self.enemyHeroList) do
@@ -16,6 +24,8 @@ local function updateUI(self)
         go.gameObject:SetActive(true)
         go.transform:Find("Level"):GetComponent("Text").text = "Lv." .. v.lv
         go.transform:Find("Name"):GetComponent("Text").text = v.name
+        go.transform:Find("DeadObj").gameObject:SetActive(false)
+        table.insert(self.view.enemyHeroView, go)
     end
 end
 
@@ -28,27 +38,89 @@ function M.Start(self, obj)
         myCell = self.transform:Find("Main/Myself/Scroll View/Viewport/Cell").transform,
         myLayout = self.transform:Find("Main/Myself/Scroll View/Viewport/Content").transform,
 
-        enemyScrollRect  = self.transform:Find("Main/Enemy/Scroll View"):GetComponent("ScrollRect"),
+        enemyScrollRect = self.transform:Find("Main/Enemy/Scroll View"):GetComponent("ScrollRect"),
         enemyCell = self.transform:Find("Main/Enemy/Scroll View/Viewport/Cell").transform,
         enemyLayout = self.transform:Find("Main/Enemy/Scroll View/Viewport/Content").transform,
+
+        myNum = {
+            hp = self.transform:Find("Main/Myself/CurHero/Hp"):GetComponent("Text"),
+            atk = self.transform:Find("Main/Myself/CurHero/Atk"):GetComponent("Text"),
+            def = self.transform:Find("Main/Myself/CurHero/Def"):GetComponent("Text"),
+            status = self.transform:Find("Main/Myself/CurHero/Status"):GetComponent("Text"),
+        },
+        enemyNum = {
+            hp = self.transform:Find("Main/Enemy/CurHero/Hp"):GetComponent("Text"),
+            atk = self.transform:Find("Main/Enemy/CurHero/Atk"):GetComponent("Text"),
+            def = self.transform:Find("Main/Enemy/CurHero/Def"):GetComponent("Text"),
+            status = self.transform:Find("Main/Enemy/CurHero/Status"):GetComponent("Text"),
+        },
+
+        myHeroView = {},
+        enemyHeroView = {},
     }
     self.myHeroList = WORLD_DATA.heroList
     self.enemyHeroList = WORLD_DATA.enemyList
-
+    self.time = 0
+    self.deltaTime = CS.UnityEngine.Time.deltaTime
+    self.index = 1
     updateUI(self)
 end
 
-local function startBattle(self)
+local function initNum(self,index)
+    self.view.myNum.hp.text = "Hp:" .. self.atkList[index].myHero.hp
+    self.view.myNum.atk.text = "Atk:" .. self.atkList[index].myHero.atk
+    self.view.myNum.def.text = "Def:" .. self.atkList[index].myHero.def
 
+    self.view.enemyNum.hp.text = "Hp:" .. self.atkList[index].enemyHero.hp
+    self.view.enemyNum.atk.text = "Atk:" .. self.atkList[index].enemyHero.atk
+    self.view.enemyNum.def.text = "Def:" .. self.atkList[index].enemyHero.def
 
-    -- body
+    if self.atkList[index].myHero.isDie then
+        local heroIndex = self.atkList[index].myIndex
+        self.view.myHeroView[heroIndex].transform:Find("DeadObj").gameObject:SetActive(true)
+    end
+
+    if self.atkList[index].myHero.isDie then
+        local heroIndex = self.atkList[index].enemyIndex
+        self.view.enemyHeroView[heroIndex].transform:Find("DeadObj").gameObject:SetActive(true)
+    end
+end
+
+local function initBattle(self, index)
+    if self.atkList[index].init then
+        self.view.myNum.status.text = status[3]
+        self.view.enemyNum.status.text = status[3]
+        initNum(self, index)
+    else
+        if self.atkList[index].isMyAtk then
+            self.view.myNum.status.text = status[1]
+            self.view.enemyNum.status.text = status[2]
+        else
+            self.view.myNum.status.text = status[2]
+            self.view.enemyNum.status.text = status[1]
+        end
+        Utils.DelayCall(0.5, function ()
+            initNum(self, index)
+        end)
+    end   
 end
 
 function M.Update(self)
     if WORLD_DATA.startBattle == true and not self.atkList then
         self.atkList = WORLD_DATA.atkList
-        startBattle(self)
+        initBattle(self, self.index)
+        self.index = self.index + 1
     end
+
+    if self.index <= #self.atkList then
+        self.time = self.time + self.deltaTime
+        if self.time > 1 then
+            self.time = self.deltaTime - 1
+            initBattle(self, self.index)
+            self.index = self.index + 1
+        end
+    end
+
 end
 
 return M

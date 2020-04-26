@@ -79,5 +79,8 @@ function M.appendFile(fileName,content)
     f:close()
 end
 
+function M.DelayCall(delay, func)
+    CS.LuaMgr.Instance:DelayCall(delay, func)
+end
 
 return M

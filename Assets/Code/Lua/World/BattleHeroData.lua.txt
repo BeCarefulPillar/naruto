@@ -24,6 +24,7 @@ local function toClass(t)
         hp = t.hp or 1000,
         atk = t.atk or 600,
         def = t.def or 100,
+        isDie = t.isDie or false,
         time = 0,
     }
     return M.makeObject(hero)
